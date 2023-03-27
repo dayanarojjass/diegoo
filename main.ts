@@ -6,7 +6,7 @@ input.onLogoEvent(TouchButtonEvent.Released, function () {
     basic.clearScreen()
     basic.showNumber(time % 1000)
 })
-input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+input.onLogoEvent(TouchButtonEvent.Touched, function () {
     start = input.runningTime()
     basic.showLeds(`
         # # # . .
